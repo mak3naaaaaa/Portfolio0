@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>  
+    <nav id="desktop-nav">
+        <div class="logo"> Alexis Joy</div>
+        <div>
+            <ul class="nav-links">
+               <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>   
+        </div>
+    </nav>
+    <nav id="hamburger-nav"> 
+        <div class="logo">Alexis Joy</div>
+        <div class="hamburger-menu"></div>
+        <div class="hamburger-icon"onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+               <li><a href="#about"onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+               <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="../images/profile-pic.jpg" alt="Alexi Joy profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Alexis Joy</h1>
+            <p class="section_text_p2">Lash Tech|Web Developer|Creative Entrepreneur|Student Business Analyst</p>  
+        </div>
+    </section>
+      <!--ABOUT-->
+      <section id="about">
+        <H2>About me</H2>
+        <p>I am passionate and learning on how to build effective websites and running my cluster lash business. I combine DYI crafts, creativity,power bi insights and technology to create meaningful experiences.</p>
+      </section>
+      <!--EXPERIENCES-->
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li> Learner in web development</li>
+            <li>Lash Technician</li>
+            <li>Business Analyst</li>
+            <li>Small Business Marketing</li>
+        </ul>
+      </section>
+      <!--PROJECTS-->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <p>Personal Portfolio Website</p>
+            <img src="../images/excel.jpg" alt="excel project">
+            <p>This is my excel visual dashboard</p>
+            <img src="../images/Lash-pic.jpg" alt="Lash picture project">
+            <p>These people are my happy and loyal clients</p>
+        </div>
+      </section>
+      <!--CONTACT-->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone number: +254705652133</p>
+        <p>Email: mak3naaaaaa@gmail.com</p>
+        <p>Location: Jagoo Lane</p>
+      </section>
+
+    <script src="script.js"></script> 
+</body>
+</html>
